@@ -1,0 +1,10 @@
+a1 = int(input())
+a2 = int(input())
+a3 = a1 * (a2%100%10)
+a4 = a1 * (a2%100//10)
+a5 = a1 * (a2//100)
+a6 = a1 * a2
+print(a3)
+print(a4)
+print(a5)
+print(a6)
